@@ -1,0 +1,15 @@
+# The build directory
+build
+
+# Log files
+*.log
+
+# VSCode settings file
+.vscode/settings.json
+
+# Config files
+.gitconfig
+
+# CLion auto-generated files
+.idea
+
