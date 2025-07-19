@@ -13,3 +13,6 @@ build
 # CLion auto-generated files
 .idea
 
+# build output
+build_output.txt
+

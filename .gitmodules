@@ -1,0 +1,6 @@
+[submodule "external/POCO"]
+	path = external/POCO
+	url = git@github.com:pocoproject/poco.git
+[submodule "external/GSL"]
+	path = external/GSL
+	url = git@github.com:microsoft/GSL.git
