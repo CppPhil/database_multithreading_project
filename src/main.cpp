@@ -1,11 +1,12 @@
-#include "get_session.hpp"
-#include <Poco/Data/MySQL/Connector.h>
-#include <Poco/Data/Session.h>
-#include <Poco/Data/Statement.h>
 #include <iostream>
 #include <random>
 #include <string>
 #include <thread>
+
+#include <Poco/Data/MySQL/Connector.h>
+#include <Poco/Data/Statement.h>
+
+#include "get_session.hpp"
 
 using namespace Poco::Data::Keywords;
 
