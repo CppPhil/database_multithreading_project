@@ -98,7 +98,7 @@ CMAKE_CMD="$CMAKE_CMD .."
 # Execute CMake and build
 {
   eval "$CMAKE_CMD" || error_exit "CMake configuration failed"
-  cmake --build . --parallel "$NUM_PROC" || error_exit "CMake build failed"
+  cmake --build . --config "$BUILD_TYPE" --parallel "$NUM_PROC" || error_exit "CMake build failed"
 } 2>&1 | tee "$OUTPUT_FILE"
 
 popd || error_exit "Failed to return to the original directory"
